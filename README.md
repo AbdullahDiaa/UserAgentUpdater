@@ -2,6 +2,10 @@
 this Addon Enables you to update User Agent immediately through context-Menu
 
 ![User Agent Updater](http://i52.tinypic.com/mrpmk0.png)
+### shift + u to update the browser with custom UserAgent
+* default
+* ios
+* android
 
 ### Supported User-Agents :
 
