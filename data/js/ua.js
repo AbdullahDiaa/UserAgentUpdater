@@ -5,6 +5,6 @@ $('#ua').keypress(function(e) {
 });
 self.on("message", function onMessage(message) {
 	if(message == 'focus'){
-		$('#ua').focus();				
+		$('#ua').focus().select();				
 	}
 });
