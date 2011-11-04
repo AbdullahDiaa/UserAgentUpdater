@@ -79,6 +79,9 @@ input {
     padding: 4px;
     width: 300px;
 }
+input:-moz-placeholder {
+    color:    lightGray;
+}
 .input-prepend input, .input-append input {
     border-radius: 0 3px 3px 0;
 }
