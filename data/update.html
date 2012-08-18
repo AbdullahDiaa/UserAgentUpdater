@@ -3,12 +3,28 @@
 <head>
 	<meta charset="utf-8">
 	<title>Update User Agent</title>
-	<link rel="stylesheet" href="css.css">
+	<style type="text/css" media="screen">
+		body{
+			overflow-x:hidden;
+			overflow-y:hidden;
+		}
+	</style>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 </head>
 <body>
-	<div class="input-prepend">
-		<span class="add-on">UA</span>
-		<input type="text" placeholder="default/ios/android/custom UA .." size="16" name="prependedInput" id="ua" class="medium">
+	<div class="row">
+		<div class="span12">
+			<form>
+				<div class="control-group">
+					<div class="controls">
+						<div class="input-prepend">
+							<span class="add-on">UA</span><input type="text" id="ua" class="span12" placeholder="default/ios/android/custom UA ..">
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
 	</div>
 </body>
 </html>
