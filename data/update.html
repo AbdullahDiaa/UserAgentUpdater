@@ -3,27 +3,58 @@
 <head>
 	<meta charset="utf-8">
 	<title>Update User Agent</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	
 	<style type="text/css" media="screen">
 		body{
 			overflow-x:hidden;
 			overflow-y:hidden;
+			margin:0;
+			padding:0;
 		}
 	</style>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 </head>
 <body>
-	<div class="row">
-		<div class="span12">
-			<form>
-				<div class="control-group">
-					<div class="controls">
-						<div class="input-prepend">
-							<span class="add-on">UA</span><input type="text" id="ua" class="span12" placeholder="default/ios/android/custom UA ..">
-						</div>
-					</div>
-				</div>
-			</form>
+	<div>
+		<div class="modal-header">
+			<input type="text" id="ua" class="span5" style="margin: 0 auto;" data-provide="typeahead" data-items="4" data-source='["default","ios","android","firefox","chrome","safari","ie"]' />
+		</div>
+		<div class="modal-body">
+			<ul class="thumbnails">
+				<li class="span1">
+					<a href="#" class="thumbnail" id="firefox">
+						<img src="img/browser/128-firefox.png" alt="firefox">
+					</a>
+				</li>
+				<li class="span1">
+					<a href="#" class="thumbnail" id="chrome">
+						<img src="img/browser/128-chrome.png" alt="Google Chrome">
+					</a>
+				</li>
+				<li class="span1">
+					<a href="#" class="thumbnail" id="ie">
+						<img src="img/browser/128-ie.png" alt="IE">
+					</a>
+				</li>
+				<li class="span1">
+					<a href="#" class="thumbnail" id="safari">
+						<img src="img/browser/128-safari.png" alt="Safari">
+					</a>
+				</li>
+			</ul>
+			<ul class="thumbnails">
+				<li class="span1">
+					<a href="#" class="thumbnail" id="ios">
+						<img src="img/browser/iphone.png" alt="iOS">
+					</a>
+				</li>
+				<li class="span1">
+					<a href="#" class="thumbnail" id="android">
+						<img src="img/browser/android.png" alt="Android">
+					</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 </body>

@@ -5,6 +5,12 @@ $('#ua').keypress(function(e) {
 		}
     }
 });
+$('.thumbnail').click(function(){
+	if(this.id){
+		self.postMessage(this.id);
+	}
+})
+$('.typeahead').typeahead();
 self.on("message", function onMessage(message) {
 	if(message == 'focus'){
 		$('#ua').focus().select();
