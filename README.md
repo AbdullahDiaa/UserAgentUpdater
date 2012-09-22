@@ -5,7 +5,7 @@ this Addon Enables you to update User Agent immediately through context-Menu && 
 
 ![User Agent Updater panel](https://dl.dropbox.com/u/18317770/useragent.png)
 
-### shift + u to update the browser with custom UserAgent
+### ctrl + shift + u to update the browser with custom UserAgent
 * default
 * ios
 * android

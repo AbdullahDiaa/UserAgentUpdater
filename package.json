@@ -3,7 +3,7 @@
     "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
     "author": "AbdullahDiaa",
  	"homepage": "http://abdullahdiaa.com",
-    "version": "0.3alpha", 
+    "version": "0.3", 
     "fullName": "userAgentUpdater", 
     "id": "jid1-aPwS0JCl36iLkQ", 
     "description": "the Addon Enables you to update User Agent immediately through context-Menu"

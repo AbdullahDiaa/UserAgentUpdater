@@ -1,6 +1,8 @@
 $('#ua').keypress(function(e) {
     if(e.keyCode == 13) {
-		if(this.value){
+		if($('ul.typeahead li.active').data('value')){
+			self.postMessage($('ul.typeahead li.active').data('value'));
+		}else{
 			self.postMessage(this.value);
 		}
     }
